@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c769244-a30a-4e7f-91e2-f056203330d3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jg0WR47ugUUp0XdlTmB7xstRbt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c769244-a30a-4e7f-91e2-f056203330d3" name="Default Changelist" comment="" />
+      <created>1604210459760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604210459760</updated>
+      <workItem from="1604210461570" duration="1372000" />
+      <workItem from="1604242094989" duration="17000" />
+      <workItem from="1604243221508" duration="905000" />
+      <workItem from="1604249543800" duration="294000" />
+      <workItem from="1604249851604" duration="94000" />
+      <workItem from="1604249954320" duration="652000" />
+      <workItem from="1604250618733" duration="61000" />
+      <workItem from="1604250758781" duration="272000" />
+      <workItem from="1604251462043" duration="369000" />
+      <workItem from="1604251850739" duration="223000" />
+      <workItem from="1604291808056" duration="2317000" />
+    </task>
+    <task id="LOCAL-00001" summary="v1.0">
+      <created>1604294125360</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604294125360</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.0" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="101" y="3" key="CommitChangelistDialog2" timestamp="1604294124624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="101" y="3" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604294124624" />
+    <state x="825" y="183" key="EnvironmentVariablesDialog" timestamp="1604249911922">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="825" y="183" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604249911922" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1604250841793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604250841793" />
+    <state x="836" y="422" key="Github.ShareDialog" timestamp="1604250564154">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="836" y="422" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604250564154" />
+    <state x="790" y="135" key="Github.UntrackedFilesDialog" timestamp="1604250571766">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="135" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604250571766" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1604251828897">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604251828897" />
+    <state x="70" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604294128810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="70" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604294128810" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604251606246">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604251606246" />
+  </component>
+</project>
