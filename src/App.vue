@@ -4,147 +4,110 @@
 
       <section>
         <div class="container">
-          <div id="app">
 
-            <message v-if="message" :message="message"/>
+          <button class="btn btnPrimary" @click="modalFirst = !modalFirst">Show first modal</button>
 
-            <!--new note-->
-            <new-note :note="note" @addNote="addNote"/>
-
-            <div class="note-header" style="margin: 36px 0">
-              <h1>{{ title }}</h1>
-
-              <!--search-->
-              <search
-                  :value="search"
-                  placeholder="Find your note"
-                  @search="search = $event"
-              />
-
-              <!--icons controls-->
-              <div class="icons">
-                <svg :class="{active: grid }" @click="grid = true" xmlns="http://www.w3.org/2000/svg" width="24"
-                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                     stroke-linecap="round" stroke-linejoin="round">
-                  <rect x="3" y="3" width="7" height="7"></rect>
-                  <rect x="14" y="3" width="7" height="7"></rect>
-                  <rect x="14" y="14" width="7" height="7"></rect>
-                  <rect x="3" y="14" width="7" height="7"></rect>
-                </svg>
-                <svg :class="{active: !grid }" @click="grid = false" xmlns="http://www.w3.org/2000/svg" width="24"
-                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                     stroke-linecap="round" stroke-linejoin="round">
-                  <line x1="8" y1="6" x2="21" y2="6"></line>
-                  <line x1="8" y1="12" x2="21" y2="12"></line>
-                  <line x1="8" y1="18" x2="21" y2="18"></line>
-                  <line x1="3" y1="6" x2="3" y2="6"></line>
-                  <line x1="3" y1="12" x2="3" y2="12"></line>
-                  <line x1="3" y1="18" x2="3" y2="18"></line>
-                </svg>
-              </div>
+          <!-- first modal -->
+          <modals
+              title="First modal"
+              v-show="modalFirst"
+              @close="modalFirst = false">
+            <!-- body -->
+            <div slot="body">
+              <p> Text Text Text Text Text Text Text </p>
+              <button class="btn btnPrimary" @click="modalFirst = !modalFirst">Well Done!</button>
             </div>
+          </modals>
 
-            <!--    note-list-->
-            <notes :notes="notesFilter" :grid="grid" @remove="removeNote"/>
+          <!-- second modal -->
+          <button
+              class="btn btnPrimary"
+              @click="modalSecond.show = !modalSecond.show"
+          >Show second modal
+          </button>
+          <modals
+              title="Modal with form"
+              v-show="modalSecond.show"
+              @close="closeModalSecond">
+            <!-- body -->
+            <div slot="body">
+              <form action="" @submit.prevent="submitSecondForm">
+                <label for="name">Name:</label>
+                <input
+                    type="text"
+                    id="name" name="name"
+                    placeholder="Name"
+                    v-model="modalSecond.name"
+                    required
+                >
+                <label for="email">E-mail:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="E-mail"
+                    v-model="modalSecond.email"
+                    required
+                >
+                <button class="btn btnPrimary">Submit</button>
+              </form>
+            </div>
+          </modals>
 
-          </div>
+
+         <!-- modal with validate-->
+          <button
+              class="btn btnPrimary"
+              @click="modalValidate = !modalValidate"
+          >Авторизация
+          </button>
+          <button
+              class="btn btnPrimary"
+              @click="modalValidate = !modalValidate"
+          >Регистрация
+          </button>
+          <modalValidate v-show="modalValidate" @close="modalValidate = false"/>
+
         </div>
       </section>
+
 
     </div>
   </div>
 </template>
 
 <script>
-import message from '@/components/Message.vue'
-import newNote from '@/components/NewNote.vue'
-import notes from '@/components/Notes.vue'
-import search from '@/components/Search.vue'
+import modals from '@/components/UI/Modal.vue'
+import modalValidate from '@/components/ModalValidate.vue'
 
 export default {
-  components: {
-    message,
-    newNote,
-    notes,
-    search
-  },
+  components: {modals, modalValidate},
   data() {
     return {
-      title: 'Notes App',
-      search: '',
-      message: null,
-      grid: true,
-      note: {
-        title: '',
-        imp: '0',
-        descr: ''
+      modalFirst: false,
+      modalSecond: {
+        show: false,
+        name: '',
+        email: ''
       },
-      notes: [
-        {
-          title: 'First Note',
-          imp: '0',
-          descr: 'Description for first note',
-          date: new Date(Date.now()).toLocaleString()
-        },
-        {
-          title: 'Second Note',
-          imp: '0',
-          descr: 'Description for second note',
-          date: new Date(Date.now()).toLocaleString()
-        },
-        {
-          title: 'Third Note',
-          imp: '0',
-          descr: 'Description for third note',
-          date: new Date(Date.now()).toLocaleString()
-        }
-      ]
-    }
-  },
-  computed: {
-    notesFilter() {
-      let array = this.notes
-      let search = this.search
-
-      if(!search) return array
-
-      search = search.trim().toLowerCase()
-      array = array.filter(item => {
-        if(item.title.trim().toLowerCase().indexOf(search) !== -1) {
-          return item
-        }
-      })
-
-      return array
+      modalValidate: false
     }
   },
   methods: {
-    addNote() {
-      let {title, descr, imp} = this.note;
-
-      if (title === '') {
-        this.message = 'title can t be blank!'
-        return false
-      }
-
-      this.notes.push({
-        title,
-        descr,
-        imp,
-        date: new Date(Date.now()).toLocaleString()
+    submitSecondForm() {
+      console.log({
+        name: this.modalSecond.name,
+        email: this.modalSecond.email
       })
-      this.note.title = ''
-      this.note.descr = ''
-      this.note.imp = '0'
-      this.message = null
+      this.modalSecond.name = ''
+      this.modalSecond.email = ''
+      this.modalSecond.show = false
     },
-    removeNote(index) {
-      this.notes.splice(index, 1)
+    closeModalSecond() {
+      this.modalSecond.name = ''
+      this.modalSecond.email = ''
+      this.modalSecond.show = false
     }
   }
 }
 </script>
-
-<style>
-
-</style>
