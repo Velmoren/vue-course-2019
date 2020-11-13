@@ -13,9 +13,8 @@ export default new Vuex.Store({
         }
     },
     actions: {
-        setMessage({commit}) {
-            let mes = 'Hello again!'
-            commit('setMessage', {mes})
+        setMessage({commit}, payload) {
+            commit('setMessage', payload)
         }
     },
     getters: {
