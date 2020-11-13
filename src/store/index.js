@@ -3,10 +3,10 @@ import Vuex from "vuex";
 
 Vue.use(Vuex)
 
-import example from "./example.js";
+import shop from "./shop.js";
 
 export default new Vuex.Store({
     modules: {
-        example,
+        shop,
     }
 })

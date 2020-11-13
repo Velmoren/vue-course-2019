@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4840de8d-ac72-429a-aeb1-9fa9581b9981" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/store/example.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Product.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Example.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Example.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Example.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Shop.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/example.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/shop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="vuex" />
+        <entry key="$PROJECT_DIR$" value="vuex_modules" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,7 +85,7 @@
       <workItem from="1605259085073" duration="17000" />
       <workItem from="1605259193984" duration="246000" />
       <workItem from="1605259472719" duration="448000" />
-      <workItem from="1605259941878" duration="8431000" />
+      <workItem from="1605259941878" duration="13979000" />
     </task>
     <task id="LOCAL-00001" summary="first cli">
       <created>1604412458055</created>
@@ -134,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605268755463</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="vuex_modules">
+      <created>1605274242544</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605274242544</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,21 +167,26 @@
     <MESSAGE value="auth modal + reg modal" />
     <MESSAGE value="routing" />
     <MESSAGE value="vuex" />
-    <option name="LAST_COMMIT_MESSAGE" value="vuex" />
+    <MESSAGE value="vuex_modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="vuex_modules" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="693" y="358" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1605259094756">
+    <state x="264" y="311" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605277436104">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="693" y="358" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605259094756" />
+    <state x="264" y="311" key="#com.intellij.fileTypes.FileTypeChooser/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605277436104" />
+    <state x="693" y="358" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1605278732461">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="693" y="358" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605278732461" />
     <state x="302" y="355" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1604414837517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="302" y="355" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604414837517" />
-    <state x="182" y="2" key="CommitChangelistDialog2" timestamp="1605268754835">
+    <state x="182" y="2" key="CommitChangelistDialog2" timestamp="1605274241879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="182" y="2" key="CommitChangelistDialog2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605268754835" />
+    <state x="182" y="2" key="CommitChangelistDialog2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605274241879" />
     <state width="1006" height="271" key="GridCell.Tab.0.bottom" timestamp="1605092212482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -193,9 +207,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="60" y="165" key="SettingsEditor/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605264312437" />
-    <state x="151" y="249" key="Vcs.Push.Dialog.v2" timestamp="1605268757596">
+    <state x="151" y="249" key="Vcs.Push.Dialog.v2" timestamp="1605274245287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="151" y="249" key="Vcs.Push.Dialog.v2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605268757596" />
+    <state x="151" y="249" key="Vcs.Push.Dialog.v2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605274245287" />
+    <state x="234" y="97" width="583" height="849" key="find.popup" timestamp="1605274877356">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="234" y="97" width="583" height="849" key="find.popup/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605274877356" />
+    <state x="180" y="243" key="run.anything.popup" timestamp="1605279022912">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="180" y="243" key="run.anything.popup/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605279022912" />
   </component>
 </project>

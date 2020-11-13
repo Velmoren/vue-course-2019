@@ -29,7 +29,7 @@ export default {
     return {
       links: [
         {title: 'Home', url: '/'},
-        {title: 'Example', url: '/example'}
+        {title: 'Shop', url: '/shop'}
       ]
     }
   }
