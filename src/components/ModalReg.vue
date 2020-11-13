@@ -11,7 +11,7 @@
           <label for="name">Name:</label>
           <p class="errorText" v-if="!$v.name.required">Field is required</p>
           <p class="errorText" v-if="!$v.name.minLength">
-            Name must have at least {{ $v.name.$params.minLength.min }}} !
+            Name must have at least {{ $v.name.$params.minLength.min }}}!
           </p>
           <input
               id="name" name="name"
@@ -21,6 +21,7 @@
               @change="$v.name.$touch()"
           >
         </div>
+
         <div class="form-item" :class="{errorInput: $v.email.$error}">
           <label for="email">E-mail:</label>
           <p class="errorText" v-if="!$v.email.required">Field is required</p>
@@ -37,6 +38,38 @@
               @change="$v.email.$touch()"
           >
         </div>
+
+        <div class="form-item" :class="{errorInput: $v.password.$error}">
+          <label for="password">Password:</label>
+          <p class="errorText" v-if="!$v.password.required">Field is required</p>
+          <p class="errorText" v-if="!$v.password.minLength">
+            Password must have at least {{ $v.password.$params.minLength.min }}}!
+          </p>
+
+          <input
+              id="password"
+              name="password"
+              placeholder="Password"
+              v-model="password"
+              :class="{error: $v.password.$error}"
+              @change="$v.password.$touch()"
+          >
+        </div>
+
+        <div class="form-item" :class="{errorInput: $v.confirmPassword.$error}">
+          <label for="confirmPassword">Confirm Password:</label>
+          <p class="errorText" v-if="!$v.confirmPassword.sameAsPassword">Password not confirm</p>
+
+          <input
+              id="confirmPassword"
+              name="confirmPassword"
+              placeholder="Confirm Password"
+              v-model="confirmPassword"
+              :class="{error: $v.confirmPassword.$error}"
+              @change="$v.confirmPassword.$touch()"
+          >
+        </div>
+
         <!--button-->
         <button class="btn btnPrimary">Submit</button>
       </form>
@@ -44,17 +77,25 @@
   </modal>
 </template>
 <script>
-import {required, minLength, email} from 'vuelidate/lib/validators'
+import {required, minLength, email, sameAs} from 'vuelidate/lib/validators'
 import modal from '@/components/UI/Modal.vue'
 
 export default {
   components: {
     modal
   },
+  props: {
+    user: {
+      type: Object,
+      required: true
+    }
+  },
   data() {
     return {
-      name: '',
-      email: ''
+      name: this.user.name,
+      email: this.user.email,
+      password: this.user.password,
+      confirmPassword: this.user.confirmPassword
     }
   },
   validations: {
@@ -66,6 +107,13 @@ export default {
       required,
       email
     },
+    password: {
+      required,
+      minLength: minLength(6)
+    },
+    confirmPassword: {
+     sameAsPassword: sameAs('password')
+    },
   },
   methods: {
     onSubmit() {
@@ -73,7 +121,8 @@ export default {
       if(!this.$v.$invalid) {
         const user = {
           name: this.name,
-          email: this.email
+          email: this.email,
+          password: this.password
         }
         console.log(user)
         /*DONE!*/
@@ -84,27 +133,11 @@ export default {
     resetV() {
       this.name = ''
       this.email = ''
+      this.password = ''
+      this.confirmPassword = ''
       this.$v.$reset()
+      console.log(this.$v)
     }
   }
 }
 </script>
-<style lang="scss">
-.form-item .errorText {
-  display: none;
-  margin-bottom: 8px;
-  font-size: 13.4px;
-  color: #de4a4a;
-}
-
-.form-item {
-  &.errorInput .errorText {
-    display: block;
-  }
-}
-
-input.error {
-  border-color: #de4a4a;
-}
-
-</style>
