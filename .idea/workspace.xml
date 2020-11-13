@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4840de8d-ac72-429a-aeb1-9fa9581b9981" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/store/example.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Example.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Example.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
@@ -18,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="мгу" />
+        <entry key="$PROJECT_DIR$" value="vuex" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -81,7 +83,7 @@
       <workItem from="1605259085073" duration="17000" />
       <workItem from="1605259193984" duration="246000" />
       <workItem from="1605259472719" duration="448000" />
-      <workItem from="1605259941878" duration="7331000" />
+      <workItem from="1605259941878" duration="8431000" />
     </task>
     <task id="LOCAL-00001" summary="first cli">
       <created>1604412458055</created>
@@ -125,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605265075869</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="vuex">
+      <created>1605268755463</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605268755463</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +157,8 @@
     <MESSAGE value="all forms" />
     <MESSAGE value="auth modal + reg modal" />
     <MESSAGE value="routing" />
-    <option name="LAST_COMMIT_MESSAGE" value="routing" />
+    <MESSAGE value="vuex" />
+    <option name="LAST_COMMIT_MESSAGE" value="vuex" />
   </component>
   <component name="WindowStateProjectService">
     <state x="693" y="358" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1605259094756">
@@ -159,10 +169,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="302" y="355" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604414837517" />
-    <state x="182" y="2" key="CommitChangelistDialog2" timestamp="1605265073646">
+    <state x="182" y="2" key="CommitChangelistDialog2" timestamp="1605268754835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="182" y="2" key="CommitChangelistDialog2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605265073646" />
+    <state x="182" y="2" key="CommitChangelistDialog2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605268754835" />
     <state width="1006" height="271" key="GridCell.Tab.0.bottom" timestamp="1605092212482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -183,9 +193,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="60" y="165" key="SettingsEditor/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605264312437" />
-    <state x="151" y="249" key="Vcs.Push.Dialog.v2" timestamp="1605265077129">
+    <state x="151" y="249" key="Vcs.Push.Dialog.v2" timestamp="1605268757596">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="151" y="249" key="Vcs.Push.Dialog.v2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605265077129" />
+    <state x="151" y="249" key="Vcs.Push.Dialog.v2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605268757596" />
   </component>
 </project>
