@@ -1,26 +1,45 @@
 <template>
   <div class="wrapper">
-    <div class="wrapper-content">
 
-      <section>
+    <header>
+      <div class="navbar">
         <div class="container">
-          <first-modal></first-modal>
-          <second-modal></second-modal>
-          <third-modal></third-modal>
+          <div class="navbar-content ">
+            <div class="logo">VUE-CLI</div>
+            <ul class="navbar-list">
+              <li class="navbar-item" v-for="link in links" :key="link.title">
+                <router-link class="navbar-link" :title="link.title" :to="link.url">{{link.title}}</router-link>
+              </li>
+            </ul>
+          </div>
         </div>
-      </section>
+      </div>
+    </header>
 
+    <router-view></router-view>
 
-    </div>
   </div>
 </template>
 
 <script>
-import firstModal from '@/pages/FirstModal.vue'
-import secondModal from '@/pages/SecondModal.vue'
-import thirdModal from '@/pages/ThirdModal.vue'
+
 
 export default {
-  components: {thirdModal, firstModal, secondModal},
+  data() {
+    return {
+      links: [
+        {title: 'Home', url: '/'},
+        {title: 'Example', url: '/example'}
+      ]
+    }
+  }
 }
 </script>
+
+<style lang="scss">
+.navbar-link {
+  &.router-link-exact-active {
+    color: #5247e7
+  }
+}
+</style>

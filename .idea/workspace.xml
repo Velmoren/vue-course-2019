@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4840de8d-ac72-429a-aeb1-9fa9581b9981" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ModalReg.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/FirstModal.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SecondModal.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ThirdModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/404.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Example.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ModalValidate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ModalAuth.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ModalAuth.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ModalReg.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Modal.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/FirstModal.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SecondModal.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ThirdModal.vue" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +30,15 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="modals" />
+        <entry key="$PROJECT_DIR$" value="modals_auth_and_reg" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
   </component>
   <component name="ProjectId" id="1jmbmCd6AAdxFPjsUTomE7G6fUd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -36,16 +50,18 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Курсы - Разработка\Vue\vue-course-2019\src\pages" />
+      <recent name="D:\Курсы - Разработка\Vue\vue-course-2019\src\assets\zxczxczxc" />
       <recent name="D:\Курсы - Разработка\Vue\vue-course-2019\src\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -72,7 +88,12 @@
       <workItem from="1605091546936" duration="660000" />
       <workItem from="1605105175272" duration="958000" />
       <workItem from="1605173329279" duration="16009000" />
-      <workItem from="1605250885925" duration="4446000" />
+      <workItem from="1605250885925" duration="5249000" />
+      <workItem from="1605257965415" duration="967000" />
+      <workItem from="1605259085073" duration="17000" />
+      <workItem from="1605259193984" duration="246000" />
+      <workItem from="1605259472719" duration="448000" />
+      <workItem from="1605259941878" duration="5089000" />
     </task>
     <task id="LOCAL-00001" summary="first cli">
       <created>1604412458055</created>
@@ -102,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605196310241</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="auth modal + reg modal">
+      <created>1605255362446</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605255362446</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,17 +151,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first cli" />
     <MESSAGE value="all forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="all forms" />
+    <MESSAGE value="auth modal + reg modal" />
+    <option name="LAST_COMMIT_MESSAGE" value="auth modal + reg modal" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="693" y="358" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1605259094756">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="693" y="358" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605259094756" />
     <state x="302" y="355" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1604414837517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="302" y="355" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604414837517" />
-    <state x="182" y="2" key="CommitChangelistDialog2" timestamp="1605196307338">
+    <state x="182" y="2" key="CommitChangelistDialog2" timestamp="1605255360493">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="182" y="2" key="CommitChangelistDialog2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605196307338" />
+    <state x="182" y="2" key="CommitChangelistDialog2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605255360493" />
     <state width="1006" height="271" key="GridCell.Tab.0.bottom" timestamp="1605092212482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -150,13 +183,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1006" height="271" key="GridCell.Tab.0.right/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605092212482" />
-    <state x="60" y="165" key="SettingsEditor" timestamp="1604505370098">
+    <state x="60" y="165" key="SettingsEditor" timestamp="1605264312437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="60" y="165" key="SettingsEditor/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604505370098" />
-    <state x="151" y="249" key="Vcs.Push.Dialog.v2" timestamp="1605196312698">
+    <state x="60" y="165" key="SettingsEditor/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605264312437" />
+    <state x="151" y="249" key="Vcs.Push.Dialog.v2" timestamp="1605255365322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="151" y="249" key="Vcs.Push.Dialog.v2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605196312698" />
+    <state x="151" y="249" key="Vcs.Push.Dialog.v2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605255365322" />
   </component>
 </project>
