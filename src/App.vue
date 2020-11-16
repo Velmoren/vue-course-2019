@@ -79,27 +79,11 @@ export default {
         imp: '0',
         descr: ''
       },
-      notes: [
-        {
-          title: 'First Note',
-          imp: '0',
-          descr: 'Description for first note',
-          date: new Date(Date.now()).toLocaleString()
-        },
-        {
-          title: 'Second Note',
-          imp: '0',
-          descr: 'Description for second note',
-          date: new Date(Date.now()).toLocaleString()
-        },
-        {
-          title: 'Third Note',
-          imp: '0',
-          descr: 'Description for third note',
-          date: new Date(Date.now()).toLocaleString()
-        }
-      ]
+      notes: []
     }
+  },
+  created() {
+    this.notes = this.$store.getters.getNotes
   },
   computed: {
     notesFilter() {
@@ -127,7 +111,7 @@ export default {
         return false
       }
 
-      this.notes.push({
+      this.$store.dispatch('setNote', {
         title,
         descr,
         imp,
@@ -139,7 +123,7 @@ export default {
       this.message = null
     },
     removeNote(index) {
-      this.notes.splice(index, 1)
+      this.$store.dispatch('removeNote', {index: index})
     }
   }
 }
