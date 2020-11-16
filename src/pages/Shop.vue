@@ -26,7 +26,6 @@ import shopItem from '@/components/ShopItem'
     },
     created() {
       this.shopList = this.$store.getters.getShopList
-      console.log(this.shopList)
     }
   }
 </script>
