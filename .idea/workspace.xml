@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4840de8d-ac72-429a-aeb1-9fa9581b9981" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vue-course-2019.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/sitemap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.base.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.build.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.dev.conf.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Product.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Product.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Shop.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Shop.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="vuex_modules" />
+        <entry key="$PROJECT_DIR$" value="shop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,7 +41,9 @@
     <bower.json value="" />
   </component>
   <component name="ProjectId" id="1jmbmCd6AAdxFPjsUTomE7G6fUd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,7 +52,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -50,15 +61,18 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Курсы - Разработка\Vue\vue-course-2019\src\pages" />
-      <recent name="D:\Курсы - Разработка\Vue\vue-course-2019\src\assets\zxczxczxc" />
-      <recent name="D:\Курсы - Разработка\Vue\vue-course-2019\src\components" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CourseDevelopment\Vue\vue-course-2019" />
+      <recent name="D:\CourseDevelopment\Vue\vue-course-2019\src\config" />
       <recent name="D:\Курсы - Разработка\Vue\vue-course-2019\src\components" />
       <recent name="D:\Курсы - Разработка\Vue\vue-course-2019\src\pages" />
       <recent name="D:\Курсы - Разработка\Vue\vue-course-2019\src\components\UI" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CourseDevelopment\Vue\vue-course-2019" />
+      <recent name="D:\Курсы - Разработка\Vue\vue-course-2019\src\pages" />
+      <recent name="D:\Курсы - Разработка\Vue\vue-course-2019\src\assets\zxczxczxc" />
+      <recent name="D:\Курсы - Разработка\Vue\vue-course-2019\src\components" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -86,6 +100,11 @@
       <workItem from="1605259472719" duration="448000" />
       <workItem from="1605259941878" duration="14016000" />
       <workItem from="1605510481477" duration="2658000" />
+      <workItem from="1605528466687" duration="913000" />
+      <workItem from="1605529463418" duration="1138000" />
+      <workItem from="1605530653377" duration="8660000" />
+      <workItem from="1605602525412" duration="161000" />
+      <workItem from="1605616398492" duration="9760000" />
     </task>
     <task id="LOCAL-00001" summary="first cli">
       <created>1604412458055</created>
@@ -150,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605280903562</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="webpack">
+      <created>1605624615414</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605624615414</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,13 +202,14 @@
     <MESSAGE value="vuex" />
     <MESSAGE value="vuex_modules" />
     <MESSAGE value="shop app" />
-    <option name="LAST_COMMIT_MESSAGE" value="shop app" />
+    <MESSAGE value="webpack" />
+    <option name="LAST_COMMIT_MESSAGE" value="webpack" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="264" y="311" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605277436104">
+    <state x="264" y="311" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605529983888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="264" y="311" key="#com.intellij.fileTypes.FileTypeChooser/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605277436104" />
+    <state x="264" y="311" key="#com.intellij.fileTypes.FileTypeChooser/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605529983888" />
     <state x="693" y="358" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1605278732461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -191,10 +218,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="302" y="355" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604414837517" />
-    <state x="182" y="2" key="CommitChangelistDialog2" timestamp="1605280902628">
+    <state x="182" y="2" key="CommitChangelistDialog2" timestamp="1605624614199">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="182" y="2" key="CommitChangelistDialog2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605280902628" />
+    <state x="182" y="2" key="CommitChangelistDialog2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605624614199" />
     <state width="1006" height="271" key="GridCell.Tab.0.bottom" timestamp="1605092212482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -215,10 +242,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="60" y="165" key="SettingsEditor/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605511963862" />
-    <state x="151" y="249" key="Vcs.Push.Dialog.v2" timestamp="1605280905134">
+    <state x="151" y="249" key="Vcs.Push.Dialog.v2" timestamp="1605624625693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="151" y="249" key="Vcs.Push.Dialog.v2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605280905134" />
+    <state x="151" y="249" key="Vcs.Push.Dialog.v2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605624625693" />
     <state x="234" y="97" width="583" height="849" key="find.popup" timestamp="1605274877356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

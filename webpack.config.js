@@ -64,10 +64,6 @@ module.exports = {
             }
         ]
     },
-    devServer: {
-        //оверлей с ошибками прямо на экране
-        overlay: true
-    },
     //подключение плагинов
     plugins: [
         new MiniCssExtractPlugin({
