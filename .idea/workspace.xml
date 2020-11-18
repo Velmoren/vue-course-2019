@@ -2,30 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68dfb8f4-8141-484d-806e-108047669d11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/utils/fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/utils/libs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/utils/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/utils/reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/utils/vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/components/Example.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/robots.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/utils/fonts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/utils/libs.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/utils/mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/utils/reset.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/utils/vars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.base.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.build.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.dev.conf.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +32,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="webpack_module" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kSpmu2UXN8vMnnO3z4OzVuojYH" />
@@ -46,10 +47,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CourseDevelopment\Vue\vue-course-2019\public" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -60,28 +68,56 @@
       <option name="presentableId" value="Default" />
       <updated>1605704010802</updated>
       <workItem from="1605704012977" duration="888000" />
+      <workItem from="1605705901789" duration="64000" />
+      <workItem from="1605706068799" duration="288000" />
+      <workItem from="1605706402333" duration="1111000" />
+      <workItem from="1605707533477" duration="1573000" />
     </task>
+    <task id="LOCAL-00001" summary="webpack 4">
+      <created>1605705938310</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605705938310</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="webpack 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="webpack 4" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="988" height="272" key="GridCell.Tab.0.bottom" timestamp="1605704902973">
+    <state x="583" y="1" key="CommitChangelistDialog2" timestamp="1605705936591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="988" height="272" key="GridCell.Tab.0.bottom/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605704902973" />
-    <state width="988" height="272" key="GridCell.Tab.0.center" timestamp="1605704902973">
+    <state x="583" y="1" key="CommitChangelistDialog2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605705936591" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1605706356515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="988" height="272" key="GridCell.Tab.0.center/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605704902973" />
-    <state width="988" height="272" key="GridCell.Tab.0.left" timestamp="1605704902973">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605706356515" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1605706356515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="988" height="272" key="GridCell.Tab.0.left/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605704902973" />
-    <state width="988" height="272" key="GridCell.Tab.0.right" timestamp="1605704902973">
+    <state width="1877" height="274" key="GridCell.Tab.0.center/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605706356515" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1605706356515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="988" height="272" key="GridCell.Tab.0.right/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605704902973" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605706356515" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1605706356515">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.right/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605706356515" />
+    <state x="25" y="166" key="SettingsEditor" timestamp="1605707173636">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="25" y="166" key="SettingsEditor/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605707173636" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1605705942469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605705942469" />
   </component>
 </project>
