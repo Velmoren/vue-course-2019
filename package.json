@@ -1,5 +1,5 @@
 {
-  "name": "webpack-4",
+  "name": "webpacktemplate",
   "version": "1.0.0",
   "description": "My template",
   "main": "index.js",
@@ -11,26 +11,19 @@
     "> 1%",
     "last 3 version"
   ],
-  "author": "https://github.com/vedees",
+  "author": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vedees/webpack-template.git"
   },
   "bugs": {
-    "url": "https://github.com/vedees/webpack-template/issues"
+    "url": ""
   },
-  "keywords": [
-    "webpack",
-    "webpack4",
-    "merge",
-    "bable",
-    "bable7",
-    "scss",
-    "vue"
-  ],
+  "keywords": [],
   "license": "MIT",
   "dependencies": {
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vuex": "^3.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
