@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4840de8d-ac72-429a-aeb1-9fa9581b9981" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vue-course-2019.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/sitemap.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.base.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.build.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.dev.conf.js" afterDir="false" />
+    <list default="true" id="68dfb8f4-8141-484d-806e-108047669d11" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/utils/fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/utils/libs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/utils/mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/utils/reset.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/utils/vars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.base.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.build.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.dev.conf.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,231 +36,52 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="shop" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JsBowerSettings">
-    <node-interpreter value="project" />
-    <bower-package value="" />
-    <bower.json value="" />
-  </component>
-  <component name="ProjectId" id="1jmbmCd6AAdxFPjsUTomE7G6fUd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1kSpmu2UXN8vMnnO3z4OzVuojYH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\CourseDevelopment\Vue\vue-course-2019" />
-      <recent name="D:\CourseDevelopment\Vue\vue-course-2019\src\config" />
-      <recent name="D:\Курсы - Разработка\Vue\vue-course-2019\src\components" />
-      <recent name="D:\Курсы - Разработка\Vue\vue-course-2019\src\pages" />
-      <recent name="D:\Курсы - Разработка\Vue\vue-course-2019\src\components\UI" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\CourseDevelopment\Vue\vue-course-2019" />
-      <recent name="D:\Курсы - Разработка\Vue\vue-course-2019\src\pages" />
-      <recent name="D:\Курсы - Разработка\Vue\vue-course-2019\src\assets\zxczxczxc" />
-      <recent name="D:\Курсы - Разработка\Vue\vue-course-2019\src\components" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4840de8d-ac72-429a-aeb1-9fa9581b9981" name="Default Changelist" comment="" />
-      <created>1604412372664</created>
+      <changelist id="68dfb8f4-8141-484d-806e-108047669d11" name="Default Changelist" comment="" />
+      <created>1605704010802</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1604412372664</updated>
-      <workItem from="1604412375000" duration="148000" />
-      <workItem from="1604412542350" duration="2976000" />
-      <workItem from="1604505241844" duration="2590000" />
-      <workItem from="1604663964824" duration="9994000" />
-      <workItem from="1604674034535" duration="38000" />
-      <workItem from="1604905723904" duration="398000" />
-      <workItem from="1604906127337" duration="2501000" />
-      <workItem from="1605091546936" duration="660000" />
-      <workItem from="1605105175272" duration="958000" />
-      <workItem from="1605173329279" duration="16009000" />
-      <workItem from="1605250885925" duration="5249000" />
-      <workItem from="1605257965415" duration="967000" />
-      <workItem from="1605259085073" duration="17000" />
-      <workItem from="1605259193984" duration="246000" />
-      <workItem from="1605259472719" duration="448000" />
-      <workItem from="1605259941878" duration="14016000" />
-      <workItem from="1605510481477" duration="2658000" />
-      <workItem from="1605528466687" duration="913000" />
-      <workItem from="1605529463418" duration="1138000" />
-      <workItem from="1605530653377" duration="8660000" />
-      <workItem from="1605602525412" duration="161000" />
-      <workItem from="1605616398492" duration="9760000" />
+      <updated>1605704010802</updated>
+      <workItem from="1605704012977" duration="888000" />
     </task>
-    <task id="LOCAL-00001" summary="first cli">
-      <created>1604412458055</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1604412458055</updated>
-    </task>
-    <task id="LOCAL-00002" summary="first cli">
-      <created>1604416072005</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1604416072005</updated>
-    </task>
-    <task id="LOCAL-00003" summary="first cli">
-      <created>1604674056953</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1604674056953</updated>
-    </task>
-    <task id="LOCAL-00004" summary="all forms">
-      <created>1605196310241</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1605196310241</updated>
-    </task>
-    <task id="LOCAL-00005" summary="auth modal + reg modal">
-      <created>1605255362446</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1605255362446</updated>
-    </task>
-    <task id="LOCAL-00006" summary="routing">
-      <created>1605265075869</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1605265075869</updated>
-    </task>
-    <task id="LOCAL-00007" summary="vuex">
-      <created>1605268755463</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1605268755463</updated>
-    </task>
-    <task id="LOCAL-00008" summary="vuex_modules">
-      <created>1605274242544</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1605274242544</updated>
-    </task>
-    <task id="LOCAL-00009" summary="shop app">
-      <created>1605280903562</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1605280903562</updated>
-    </task>
-    <task id="LOCAL-00010" summary="webpack">
-      <created>1605624615414</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1605624615414</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="first cli" />
-    <MESSAGE value="all forms" />
-    <MESSAGE value="auth modal + reg modal" />
-    <MESSAGE value="routing" />
-    <MESSAGE value="vuex" />
-    <MESSAGE value="vuex_modules" />
-    <MESSAGE value="shop app" />
-    <MESSAGE value="webpack" />
-    <option name="LAST_COMMIT_MESSAGE" value="webpack" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="264" y="311" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605529983888">
+    <state width="988" height="272" key="GridCell.Tab.0.bottom" timestamp="1605704902973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="264" y="311" key="#com.intellij.fileTypes.FileTypeChooser/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605529983888" />
-    <state x="693" y="358" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1605278732461">
+    <state width="988" height="272" key="GridCell.Tab.0.bottom/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605704902973" />
+    <state width="988" height="272" key="GridCell.Tab.0.center" timestamp="1605704902973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="693" y="358" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605278732461" />
-    <state x="302" y="355" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1604414837517">
+    <state width="988" height="272" key="GridCell.Tab.0.center/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605704902973" />
+    <state width="988" height="272" key="GridCell.Tab.0.left" timestamp="1605704902973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="302" y="355" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604414837517" />
-    <state x="182" y="2" key="CommitChangelistDialog2" timestamp="1605624614199">
+    <state width="988" height="272" key="GridCell.Tab.0.left/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605704902973" />
+    <state width="988" height="272" key="GridCell.Tab.0.right" timestamp="1605704902973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="182" y="2" key="CommitChangelistDialog2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605624614199" />
-    <state width="1006" height="271" key="GridCell.Tab.0.bottom" timestamp="1605092212482">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1006" height="271" key="GridCell.Tab.0.bottom/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605092212482" />
-    <state width="1006" height="271" key="GridCell.Tab.0.center" timestamp="1605092212482">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1006" height="271" key="GridCell.Tab.0.center/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605092212482" />
-    <state width="1006" height="271" key="GridCell.Tab.0.left" timestamp="1605092212482">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1006" height="271" key="GridCell.Tab.0.left/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605092212482" />
-    <state width="1006" height="271" key="GridCell.Tab.0.right" timestamp="1605092212482">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1006" height="271" key="GridCell.Tab.0.right/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605092212482" />
-    <state x="60" y="165" key="SettingsEditor" timestamp="1605511963862">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="60" y="165" key="SettingsEditor/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605511963862" />
-    <state x="151" y="249" key="Vcs.Push.Dialog.v2" timestamp="1605624625693">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="151" y="249" key="Vcs.Push.Dialog.v2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605624625693" />
-    <state x="234" y="97" width="583" height="849" key="find.popup" timestamp="1605274877356">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="234" y="97" width="583" height="849" key="find.popup/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605274877356" />
-    <state x="180" y="243" key="run.anything.popup" timestamp="1605279022912">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="180" y="243" key="run.anything.popup/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605279022912" />
+    <state width="988" height="272" key="GridCell.Tab.0.right/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605704902973" />
   </component>
 </project>

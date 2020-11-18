@@ -1,11 +1,19 @@
-import './js/common'
-import './css/main.css'
-import './scss/main.scss'
+// JS
+import './js/'
 
-//первый способ
-// import 'vue'
-//второй способ
-// import 'bootstrap/dist/css/bootstrap.css'
-//третий способ
+// SCSS
+import './assets/scss/main.scss'
+
+// CSS (example)
+// import './assets/css/main.css'
+
+// Vue.js
 window.Vue = require('vue')
 
+// Vue components (for use in html)
+Vue.component('example-component', require('./js/components/Example.vue').default)
+
+// Vue init
+const app = new Vue({
+  el: '#app'
+})
