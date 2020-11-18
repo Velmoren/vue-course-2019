@@ -2,30 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68dfb8f4-8141-484d-806e-108047669d11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/utils/fonts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/utils/libs.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/utils/mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/utils/reset.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/utils/vars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.base.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.build.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.dev.conf.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +44,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605704010802</updated>
       <workItem from="1605704012977" duration="888000" />
+      <workItem from="1605709457020" duration="247000" />
     </task>
     <servers />
   </component>
@@ -67,21 +52,21 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="988" height="272" key="GridCell.Tab.0.bottom" timestamp="1605704902973">
+    <state width="988" height="271" key="GridCell.Tab.0.bottom" timestamp="1605709583163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="988" height="272" key="GridCell.Tab.0.bottom/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605704902973" />
-    <state width="988" height="272" key="GridCell.Tab.0.center" timestamp="1605704902973">
+    <state width="988" height="271" key="GridCell.Tab.0.bottom/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605709583163" />
+    <state width="988" height="271" key="GridCell.Tab.0.center" timestamp="1605709583163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="988" height="272" key="GridCell.Tab.0.center/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605704902973" />
-    <state width="988" height="272" key="GridCell.Tab.0.left" timestamp="1605704902973">
+    <state width="988" height="271" key="GridCell.Tab.0.center/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605709583163" />
+    <state width="988" height="271" key="GridCell.Tab.0.left" timestamp="1605709583162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="988" height="272" key="GridCell.Tab.0.left/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605704902973" />
-    <state width="988" height="272" key="GridCell.Tab.0.right" timestamp="1605704902973">
+    <state width="988" height="271" key="GridCell.Tab.0.left/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605709583162" />
+    <state width="988" height="271" key="GridCell.Tab.0.right" timestamp="1605709583163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="988" height="272" key="GridCell.Tab.0.right/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605704902973" />
+    <state width="988" height="271" key="GridCell.Tab.0.right/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605709583163" />
   </component>
 </project>
