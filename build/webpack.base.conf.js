@@ -16,7 +16,7 @@ const PATHS = {
 }
 
 //получение массива PAGES для последующего перебора
-// const PAGES_DIR = PATHS.src
+const PAGES_DIR = PATHS.src
 // const PAGES = fs
 //   .readdirSync(PAGES_DIR)
 //   .filter(fileName => fileName.endsWith('.html'))

@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68dfb8f4-8141-484d-806e-108047669d11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/SegoeUIRegular/SegoeUIRegular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/modules/console.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utils/fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utils/vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +55,7 @@
       <workItem from="1605709457020" duration="1171000" />
       <workItem from="1605710700054" duration="1892000" />
       <workItem from="1605770268647" duration="2549000" />
-      <workItem from="1605772839159" duration="11680000" />
+      <workItem from="1605772839159" duration="11806000" />
     </task>
     <task id="LOCAL-00001" summary="webpack-4">
       <created>1605709736749</created>
@@ -85,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605712584159</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="webpack-4">
+      <created>1605784721237</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605784721237</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,10 +100,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="287" y="311" key="#com.intellij.fileTypes.FileTypeChooser/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605781154636" />
-    <state x="147" y="2" key="CommitChangelistDialog2" timestamp="1605712583209">
+    <state x="147" y="2" key="CommitChangelistDialog2" timestamp="1605784719456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="147" y="2" key="CommitChangelistDialog2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605712583209" />
+    <state x="147" y="2" key="CommitChangelistDialog2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605784719456" />
     <state width="988" height="271" key="GridCell.Tab.0.bottom" timestamp="1605710795731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -124,9 +124,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="104" y="256" key="IDE.errors.dialog/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605712520831" />
-    <state x="116" y="250" key="Vcs.Push.Dialog.v2" timestamp="1605712587186">
+    <state x="116" y="250" key="Vcs.Push.Dialog.v2" timestamp="1605784727461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="116" y="250" key="Vcs.Push.Dialog.v2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605712587186" />
+    <state x="116" y="250" key="Vcs.Push.Dialog.v2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605784727461" />
   </component>
 </project>
