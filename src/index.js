@@ -11,7 +11,7 @@ import './assets/css/main.css'
 // Vue.js
 window.Vue = require('vue')
 import store from './store'
-
+Vue.config.productionTip = false
 // Vue components (for use in html)
 Vue.component('example-component', require('./js/components/Example.vue').default)
 
