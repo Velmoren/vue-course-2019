@@ -1,43 +1,31 @@
-/* Fonts:
-  https://github.com/vedees/webpack-template/blob/master/README.md#import-js-files
-  ========================================================================== */
-
 @import 'mixins';
+  // редактор ругается на пути. Не верь ему, врет он все
+  // ВАЖНО
+  // в папке fonts не должно быть сильной вложенности
+  // файлы шрифтов хранятся в одноименной папке. пример
+  // /fonts/SegoeUIRegular/SegoeUIRegular.eot
+  // /fonts/SegoeUIRegular/SegoeUIRegular.woff
 
-/*
-  One of the ways:
-  1. handle method,
-  2. use mixin;
-*/
-
-// 1. Example handle method (without mixin):
-
-/*
-  // Base Helvetica (example):
   @font-face {
-    font-family: "Helvetica-Base";
-    src: url('/assets/fonts/Helvetica/Base/Helvetica-Base.eot'); // IE9 Compat Modes
-    src: url('/assets/fonts/Helvetica/Base/Helvetica-Base.eot?#iefix') format('embedded-opentype'), // IE6-IE8
-         url('/assets/fonts/Helvetica/Base/Helvetica-Base.woff') format('woff'), // Pretty Modern Browsers
-         url('/assets/fonts/Helvetica/Base/Helvetica-Base.ttf')  format('truetype'), // Safari, Android, iOS
-         url('/assets/fonts/Helvetica/Base/Helvetica-Base.svg') format('svg'); // Legacy iOS
+    font-family: "SegoeUIR";
+    src: url('../fonts/SegoeUIRegular/SegoeUIRegular.eot'); // IE9 Compat Modes
+    src: url("../fonts/SegoeUIRegular/SegoeUIRegular.woff") format('woff'); // Pretty Modern Browsers
+    src: url('../fonts/SegoeUIRegular/SegoeUIRegular.eot?#iefix') format('embedded-opentype'), // IE6-IE8
+         url('../fonts/SegoeUIRegular/SegoeUIRegular.ttf')  format('truetype'), // Safari, Android, iOS
+         //url('../fonts/SegoeUI/SegoeUIRegular/SegoeUIRegular.svg') format('svg'); // Legacy iOS
   }
-*/
 
-// 2. Example with mixin (example):
 
-/* NOTE:
-  1. do NOT use expansion (.woff, .svg etc) for path! Path will be '/assets/fonts/OpenSans/opensans;
-  2, files required: `.woff, .woffs` (by default) OR `eot. .woff, .woffs, .svg, .ttf` if you use another mixin.
-*/
+//@font-face {
+//  font-family: 'SegoeUIR';
+//  src: url("../fonts/SegoeUI/SegoeUIRegular/SegoeUIRegular.woff") format('woff');
+//}
 
-// Base OpenSans:
 // @include font-face("OpenSans", "/assets/fonts/OpenSans/opensans");
 // @include font-face("OpenSans", "/assets/fonts/OpenSans/opensanslight", 300);
 // @include font-face("OpenSans", "/assets/fonts/OpenSans/opensanssemibold", 600);
 // @include font-face("OpenSans", "/assets/fonts/OpenSans/opensansbold", bold);
 
-// Italic OpenSans:
 // @include font-face("OpenSans", "/assets/fonts/OpenSans/opensansItalic", 400, italic);
 // @include font-face("OpenSans", "/assets/fonts/OpenSans/opensansLightItalic", 300, italic);
 // @include font-face("OpenSans", "/assets/fonts/OpenSans/opensansSemiBoldItalic", 600, italic);

@@ -1,3 +1,4 @@
+// если не нужно компилирование чего-то - убираем)
 // JS
 import './js/'
 
@@ -5,7 +6,7 @@ import './js/'
 import './assets/scss/main.scss'
 
 // CSS (example)
-// import './assets/css/main.css'
+import './assets/css/main.css'
 
 // Vue.js
 window.Vue = require('vue')
