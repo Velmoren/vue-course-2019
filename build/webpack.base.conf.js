@@ -74,7 +74,8 @@ module.exports = {
         test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
         loader: 'file-loader',
         options: {
-          name: `${PATHS.assets}[folder]/[name].[ext]`,
+          // name: `${PATHS.assets}[folder]/[name].[ext]`,
+          name: `assets/fonts/[name]/[name].[ext]`,
           emitFile: false,
         }
       },
