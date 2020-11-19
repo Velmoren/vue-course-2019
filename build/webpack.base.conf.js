@@ -31,7 +31,8 @@ module.exports = {
     // module: `${PATHS.src}/your-module.js`,
   },
   output: {
-    filename: `${PATHS.assets}js/[name].[hash].js`,
+    // filename: `${PATHS.assets}js/[name].[hash].js`,
+    filename: `${PATHS.assets}js/[name].js`,
     path: PATHS.dist,
     /*
       publicPath: '/' - relative path for dist folder (js,css etc)
@@ -145,7 +146,8 @@ module.exports = {
     // Vue loader
     new VueLoaderPlugin(),
     new MiniCssExtractPlugin({
-      filename: `${PATHS.assets}css/[name].[hash].css`
+      // filename: `${PATHS.assets}css/[name].[hash].css`
+      filename: `${PATHS.assets}css/[name].css`
     }),
     new CopyWebpackPlugin({
       patterns: [
@@ -167,7 +169,8 @@ module.exports = {
       ]
     }),
     //постраничная компиляция
-    new HtmlWebpackPlugin({
+    new HtmlWebpackPlugin(
+      {
         template: `${PAGES_DIR}/index.html`,
         filename: `./index.html`,
         //титл страницы
@@ -177,7 +180,17 @@ module.exports = {
         //отключает дублирование подключений css и js
         inject: false
       }
-    )
+    ),
+    new HtmlWebpackPlugin({
+      template: `${PAGES_DIR}/about.html`,
+      filename: `./about.html`,
+      //титл страницы
+      title: 'About Template',
+      //отменяет сжатие html
+      minify: false,
+      //отключает дублирование подключений css и js
+      inject: false
+    })
     //автоматический перебор страниц и компиляция в dist
     // ...PAGES.map(
     //   page =>

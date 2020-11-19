@@ -23,6 +23,7 @@
   "license": "MIT",
   "dependencies": {
     "vue": "^2.6.11",
+    "vuelidate": "^0.7.6",
     "vuex": "^3.5.1"
   },
   "devDependencies": {

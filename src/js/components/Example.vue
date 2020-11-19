@@ -16,7 +16,7 @@ export default {
     }
   },
   created() {
-    this.message = this.$store.getters.getMessage
+    this.message = this.$store.getters.getModalView
   }
 }
 </script>
