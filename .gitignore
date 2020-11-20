@@ -1,24 +1,21 @@
-# Default
-.gulp
-.idea
-.vscode
-
-# Node
+.DS_Store
 node_modules
+/dist
 
-# Dist & tests
-test
-dist
+# local env files
+.env.local
+.env.*.local
 
-# Logs:
-*.log
+# Log files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Special
-Thumbs.db
-Desktop.ini
-.DS_Store*
-ehthumbs.db
-Icon?
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*

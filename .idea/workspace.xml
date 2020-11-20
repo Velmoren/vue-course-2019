@@ -2,15 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68dfb8f4-8141-484d-806e-108047669d11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/common/buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/common/controls.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/common/link.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/common/navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/common/status.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/common/table.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/common/title.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/404.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Users.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resourses/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webpack.base.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webpack.build.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webpack.dev.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prettier.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SegoeUIRegular/SegoeUIRegular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SegoeUIRegular/SegoeUIRegular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SegoeUIRegular/SegoeUIRegular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/libs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utils/reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utils/vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/Example.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/UI/Modal.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/UI/Notify.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/UI/controls/buttons/Login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/UI/modals/Login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/console.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/sitemap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,24 +66,28 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="webpack_module" />
+        <entry key="$PROJECT_DIR$" value="webpack_modal" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kSpmu2UXN8vMnnO3z4OzVuojYH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/scss/utils" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="AtomAssocConfig" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -72,6 +119,8 @@
       <workItem from="1605787492170" duration="10122000" />
       <workItem from="1605797665969" duration="1269000" />
       <workItem from="1605857605456" duration="1199000" />
+      <workItem from="1605863536929" duration="148000" />
+      <workItem from="1605864108506" duration="9824000" />
     </task>
     <task id="LOCAL-00001" summary="webpack-4">
       <created>1605709736749</created>
@@ -129,13 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605796707079</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="модальные окна Vue с webpack 4">
+      <created>1605863561494</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605863561494</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="webpack-4" />
     <MESSAGE value="убрал сообщение о production mode Vue" />
     <MESSAGE value="модальные окна Vue с webpack 4" />
@@ -146,38 +203,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="287" y="311" key="#com.intellij.fileTypes.FileTypeChooser/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605781154636" />
-    <state x="147" y="2" key="CommitChangelistDialog2" timestamp="1605796705192">
+    <state x="147" y="2" key="CommitChangelistDialog2" timestamp="1605863560060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="147" y="2" key="CommitChangelistDialog2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605796705192" />
-    <state width="988" height="271" key="GridCell.Tab.0.bottom" timestamp="1605710795731">
+    <state x="147" y="2" key="CommitChangelistDialog2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605863560060" />
+    <state x="950" y="248" key="FileChooserDialogImpl" timestamp="1605865735036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="988" height="271" key="GridCell.Tab.0.bottom/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605710795731" />
-    <state width="988" height="271" key="GridCell.Tab.0.center" timestamp="1605710795731">
+    <state x="950" y="248" key="FileChooserDialogImpl/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605865735036" />
+    <state width="988" height="271" key="GridCell.Tab.0.bottom" timestamp="1605864287353">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="988" height="271" key="GridCell.Tab.0.center/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605710795731" />
-    <state width="988" height="271" key="GridCell.Tab.0.left" timestamp="1605710795731">
+    <state width="988" height="271" key="GridCell.Tab.0.bottom/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605864287353" />
+    <state width="988" height="271" key="GridCell.Tab.0.center" timestamp="1605864287353">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="988" height="271" key="GridCell.Tab.0.left/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605710795731" />
-    <state width="988" height="271" key="GridCell.Tab.0.right" timestamp="1605710795731">
+    <state width="988" height="271" key="GridCell.Tab.0.center/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605864287353" />
+    <state width="988" height="271" key="GridCell.Tab.0.left" timestamp="1605864287353">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="988" height="271" key="GridCell.Tab.0.right/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605710795731" />
-    <state x="104" y="256" key="IDE.errors.dialog" timestamp="1605789863194">
+    <state width="988" height="271" key="GridCell.Tab.0.left/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605864287353" />
+    <state width="988" height="271" key="GridCell.Tab.0.right" timestamp="1605864287353">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="104" y="256" key="IDE.errors.dialog/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605789863194" />
-    <state x="671" y="152" key="SettingsEditor" timestamp="1605797760713">
+    <state width="988" height="271" key="GridCell.Tab.0.right/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605864287353" />
+    <state x="104" y="256" key="IDE.errors.dialog" timestamp="1605875582942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="671" y="152" key="SettingsEditor/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605797760713" />
-    <state x="116" y="250" key="Vcs.Push.Dialog.v2" timestamp="1605796710851">
+    <state x="104" y="256" key="IDE.errors.dialog/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605875582942" />
+    <state x="72" y="97" key="SettingsEditor" timestamp="1605865737122">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="116" y="250" key="Vcs.Push.Dialog.v2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605796710851" />
+    <state x="72" y="97" key="SettingsEditor/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605865737122" />
+    <state x="116" y="250" key="Vcs.Push.Dialog.v2" timestamp="1605863564894">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="116" y="250" key="Vcs.Push.Dialog.v2/1920.59.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1605863564894" />
     <state x="341" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605789560157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

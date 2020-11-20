@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "name": "Alpha",
+      "age": 19,
+      "img": "https://tocode.ru/static/c/vue-pro/assets/userCRM/1.jpg",
+      "gender": "female"
+    },
+    {
+      "name": "Beta",
+      "age": 23,
+      "img": "https://tocode.ru/static/c/vue-pro/assets/userCRM/2.jpg",
+      "gender": "male"
+    },
+    {
+      "name": "Gamma",
+      "age": 26,
+      "img": "https://tocode.ru/static/c/vue-pro/assets/userCRM/3.jpg",
+      "gender": "mail"
+    },
+    {
+      "name": "Delta",
+      "age": 23,
+      "img": "https://tocode.ru/static/c/vue-pro/assets/userCRM/4.jpg",
+      "gender": "female"
+    },
+    {
+      "name": "Epsilon",
+      "age": 28,
+      "img": "https://tocode.ru/static/c/vue-pro/assets/userCRM/5.jpg",
+      "gender": "female"
+    },
+    {
+      "name": "Fenris",
+      "age": 21,
+      "img": "https://tocode.ru/static/c/vue-pro/assets/userCRM/6.jpg",
+      "gender": "female"
+    },
+    {
+      "name": "Gorf",
+      "age": 30,
+      "img": "https://tocode.ru/static/c/vue-pro/assets/userCRM/2.jpg",
+      "gender": "male"
+    },
+    {
+      "name": "Gohan",
+      "age": 22,
+      "img": "https://tocode.ru/static/c/vue-pro/assets/userCRM/3.jpg",
+      "gender": "male"
+    },
+    {
+      "name": "Gref",
+      "age": 20,
+      "img": "https://tocode.ru/static/c/vue-pro/assets/userCRM/1.jpg",
+      "gender": "female"
+    }
+  ]
+}
